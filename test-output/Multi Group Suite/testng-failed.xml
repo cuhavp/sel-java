@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Multi Group Suite]">
+  <test name="Group Test one">
+    <groups>
+      <run>
+        <include name="group-one"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="modules.MultiGroupTest"/>
+    </classes>
+  </test> <!-- Group Test one -->
+  <test name="Group Test two">
+    <groups>
+      <run>
+        <include name="group-two"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="modules.MultiGroupTest"/>
+    </classes>
+  </test> <!-- Group Test two -->
+</suite> <!-- Failed suite [Multi Group Suite] -->

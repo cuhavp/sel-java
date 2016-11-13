@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Exclude Group Suite" verbose="1">
+  <test name="Exclude Group Test">
+    <groups>
+      <run>
+        <include name="include-group" />
+        <exclude name="exclude-group" />
+      </run>
+    </groups>
+    <classes>
+      <class name="modunes.bmi.TC6" />
+    </classes>
+  </test>
+</suite>

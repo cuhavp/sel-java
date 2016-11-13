@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="none">
+  <listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+      <listener class-name="supports.TestListener"/>
+  </listeners>
+  <test name="Test">
+  <parameter name="browser" value="android" />
+  <parameter name="url" value="http://www.calculator.net/bmi-calculator.html" />
+    <classes>
+      <class name="modules.Bmi"/> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

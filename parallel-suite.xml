@@ -1,0 +1,23 @@
+<suite name="Test-class Suite" parallel="tests" thread-count="3">
+    <test name="Test-class test 1">
+        <parameter name="browser" value="chrome" />
+        <parameter name="url" value="http://www.calculator.net/bmi-calculator.html" />
+        <classes>
+            <class name="modules.Bmi" />
+        </classes>
+    </test>
+    <test name="Test-class test 2">
+        <parameter name="browser" value="firefox" />
+        <parameter name="url" value="http://www.calculator.net/bmi-calculator.html" />
+        <classes>
+            <class name="modules.Bmi" />
+        </classes>
+    </test>
+    <test name="Test-class test 2">
+        <parameter name="browser" value="ie" />
+        <parameter name="url" value="http://www.calculator.net/bmi-calculator.html" />
+        <classes>
+            <class name="modules.Bmi" />
+        </classes>
+    </test>
+</suite>

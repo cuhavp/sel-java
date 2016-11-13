@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/CDC-1.1%Foundation-1.1"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/hado/Downloads/selenium-server-standalone-2.53.0.jar"/>
+	<classpathentry kind="lib" path="/Users/hado/Downloads/Selenium/JarFiles/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/Users/hado/Downloads/Selenium/JarFiles/guice-3.0.jar"/>
+	<classpathentry kind="lib" path="/Users/hado/Downloads/Selenium/JarFiles/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="/Users/hado/Downloads/Selenium/JarFiles/poi-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="/Users/hado/Downloads/Selenium/JarFiles/poi-ooxml-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="/Users/hado/Downloads/Selenium/JarFiles/poi-ooxml-schemas-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="/Users/hado/Downloads/Selenium/JarFiles/reportng-1.1.4.jar"/>
+	<classpathentry kind="lib" path="/Users/hado/Downloads/Selenium/JarFiles/saxon-8.7.jar"/>
+	<classpathentry kind="lib" path="/Users/hado/Downloads/Selenium/JarFiles/SaxonLiaison.jar"/>
+	<classpathentry kind="lib" path="/Users/hado/Downloads/Selenium/JarFiles/testng-xslt-maven-plugin-test-0.0.jar"/>
+	<classpathentry kind="lib" path="/Users/hado/Downloads/Selenium/JarFiles/velocity-dep-1.4.jar"/>
+	<classpathentry kind="lib" path="/Users/hado/Downloads/Selenium/JarFiles/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

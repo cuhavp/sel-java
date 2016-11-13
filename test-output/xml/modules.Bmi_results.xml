@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="116.881">
+  <properties />
+  
+  
+            <testcase name="TC1" time="44.405" classname="modules.Bmi" />
+                <testcase name="TC1" time="45.199" classname="modules.Bmi" />
+                <testcase name="TC1" time="27.277" classname="modules.Bmi" />
+      
+</testsuite>

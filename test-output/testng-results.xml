@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="172266" started-at="2016-11-12T14:13:08Z" finished-at="2016-11-12T14:16:00Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="172266" started-at="2016-11-12T14:13:08Z" finished-at="2016-11-12T14:16:00Z">
+      <class name="modules.Bmi">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:modules.Bmi@6c3708b3]" name="setup" is-config="true" duration-ms="16040" started-at="2016-11-12T21:13:08Z" finished-at="2016-11-12T21:13:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.calculator.net/bmi-calculator.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:modules.Bmi@6c3708b3]" name="TC1" duration-ms="45199" started-at="2016-11-12T21:13:24Z" data-provider="bmidata" finished-at="2016-11-12T21:14:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[female]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[160]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[53]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[BMI = 20.70 kg/m2   (Normal)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:modules.Bmi@6c3708b3]" name="tearDown" is-config="true" duration-ms="1423" started-at="2016-11-12T21:14:09Z" finished-at="2016-11-12T21:14:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:modules.Bmi@6c3708b3]" name="setup" is-config="true" duration-ms="15746" started-at="2016-11-12T21:14:10Z" finished-at="2016-11-12T21:14:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.calculator.net/bmi-calculator.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:modules.Bmi@6c3708b3]" name="TC1" duration-ms="44405" started-at="2016-11-12T21:14:26Z" data-provider="bmidata" finished-at="2016-11-12T21:15:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[180]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[73]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[BMI = 22.53 kg/m2   (Normal)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:modules.Bmi@6c3708b3]" name="tearDown" is-config="true" duration-ms="1663" started-at="2016-11-12T21:15:11Z" finished-at="2016-11-12T21:15:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:modules.Bmi@6c3708b3]" name="setup" is-config="true" duration-ms="18862" started-at="2016-11-12T21:15:12Z" finished-at="2016-11-12T21:15:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.calculator.net/bmi-calculator.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:modules.Bmi@6c3708b3]" name="TC1" duration-ms="27277" started-at="2016-11-12T21:15:31Z" data-provider="bmidata" finished-at="2016-11-12T21:15:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[31]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[female]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[150]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[BMI = 35.56 kg/m2   (Obese Class II)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:modules.Bmi@6c3708b3]" name="tearDown" is-config="true" duration-ms="1586" started-at="2016-11-12T21:15:58Z" finished-at="2016-11-12T21:16:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- modules.Bmi -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

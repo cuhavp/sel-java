@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="android"/>
+  <parameter name="url" value="http://www.calculator.net/bmi-calculator.html"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="supports.TestListener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <parameter name="browser" value="android"/>
+    <parameter name="url" value="http://www.calculator.net/bmi-calculator.html"/>
+    <classes>
+      <class name="modules.Bmi">
+        <methods>
+          <include name="TC1"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- modules.Bmi -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
